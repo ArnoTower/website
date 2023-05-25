@@ -3,10 +3,10 @@
 
 
 html {
-    background-color:rgba(221, 181, 217, 0.941)
+    background-color:rgba(221, 181, 217, 0.941);
 }
  
- {
+ * {
     box-sizing: border-box;
     font-family: Raleway;
     color: #777;
@@ -38,8 +38,8 @@ html, body {
 .main-nav {
  text-align: center;
  font-size: 1.1em;
- font-weight: lighter
- border-bottom: 1px solid rgba(255, 255, 255, .3)
+ font-weight: lighter;
+ border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .main-nav li {
@@ -83,7 +83,7 @@ html, body {
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
-    color:aqua
+    color:rgb(255, 0, 38);
     text-align: center;
     font-size: 2.5em;
 }
@@ -97,7 +97,7 @@ html, body {
 }
 
 .main-footer {
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 223);
     color:azure;
     padding: .25em 0;
 }
@@ -119,4 +119,85 @@ html, body {
 .footer-nav img {
     width: 30px;
     height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color:aliceblue;
+    border: 2px solid #2d9cdb;
+    background-color: rgb(55, 43, 226);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color:rgb(55, 43, 226);
+
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color:rgb(255, 0, 0);
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.Arno-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.Arno-row:last-child {
+    border-bottom:none;
+}
+ 
+.Arno-life {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.Arno-focuses {
+    color:black;
+    font-weight: bold;
+    width: 11%;
+}
+
+.Arno-exists {
+    width: 24%;
+}
+
+.Arno-highest {
+    width: 42%
+}
+
+.Arno-btn {
+    max-width: 19%;
+
+}
+
+.btn-primary {
+    color:azure;
+    background-color:blue;
+    border:none;
+    border-radius: 3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color:aqua;
 }
