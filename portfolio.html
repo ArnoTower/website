@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Arnaud Hightower | Home</title>
-  <meta name="description" content="Arnaud Hightower's self-published website">
+  <title>Arnaud Hightower | Portfolio</title>
+  <meta name="description" content="Arnaud Hightower's portfolio section">
   <link rel="stylesheet" href="styles.css" />
   <style>
     body {
@@ -50,20 +49,16 @@
       margin-bottom: 20px;
     }
 
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      font-size: 16px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
     }
 
-    .btn:hover {
-      background-color: #0056b3;
+    .portfolio img {
+      max-width: 300px;
+      height: auto;
     }
 
     footer {
@@ -85,16 +80,22 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="#">Portfolio</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <div class="content">
-    <h1>Welcome to My Website!</h1>
-    <p>Explore the world of Arnaud Hightower</p>
-    <a href="portfolio.html" class="btn">View Portfolio</a>
+    <h1>Portfolio</h1>
+    <div class="portfolio">
+      <img src="path/to/famous_people_image_1.jpg" alt="Famous Person 1">
+      <img src="path/to/famous_people_image_2.jpg" alt="Famous Person 2">
+      <img src="path/to/famous_people_image_3.jpg" alt="Famous Person 3">
+      <img src="path/to/location_image_1.jpg" alt="Location 1">
+      <img src="path/to/location_image_2.jpg" alt="Location 2">
+      <img src="path/to/location_image_3.jpg" alt="Location 3">
+    </div>
   </div>
 
   <footer>
