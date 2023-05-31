@@ -6,3 +6,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Set your email address as the recipient
     $recipient = 'arnaudhightowerprivate@gmail.com'
+}
+?>
